@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Comctible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="style/style.css">
+<script src="script/script.js"></script>
+   <title>فرم ثبت بیماری های خاص دانش آموزش</title>
+</head>
+<body dir="rtl">
+<!-- bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">صفحه نخست</a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="notif.html">اطلاعیه</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="staff.html">کادر مدرسه</a>
+      </li>
+
+      
+    </ul>
+  </div>
+</nav>
+<!-- bootstrap -->
+
+
+
+<div class="main">
+
+   <p style="font-family: IranSans; float: right; margin: 20px 1px 0px 0px;"> در صورتیکه فرزند شما دارای بیماری یا مشکل خاصی است که مدرسه باید در جریان</p>
+   <br>
+   <p style="font-family: IranSans; float: right; margin: 23px -519px 0px -21px;
+">
+     باشد فرم زیر توسط یکی از والدین تکمیل شود.</p>
+
+<form method="POST" action="sickSuccess.html">
+     <label style="margin: 94px 0px 0px 729px;" for="studentName">نام دانش آموز <span class="demand">(ضروری)</span></label>
+   <br>
+   <input required style="margin: 0px 0px 0px 686px;" class="Inputs" type="text" name="studentName">
+
+
+
+   <label style="margin: -47px 0px 0px 385px;;" for="studentName"> نام خانوادگی دانش آموز <span class="demand">(ضروری)</span></label>
+   <br>
+   <input required style="margin: -25px 0px 0px 399px;" class="Inputs" type="text" name="studentName">
+<br>
+<br>
+<br>
+
+
+   <p style="margin: 0px 0px 0px 601px;">لطفا چند خط از شرح بیماری دانش آموز بنویسید</p>
+   <textarea required style="margin: 14px 12px 0px 595px; resize: none;" placeholder="چیزی بنویسید..." class="Inputs" name="" id="" cols="60" rows="15"></textarea>
+
+
+
+   <input style="" class="btn btn-success" type="submit" value="ارسال">
+
+
+
+  </form>
+</div>
+
+
+
+</body>
+</html>
