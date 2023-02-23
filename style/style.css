@@ -72,8 +72,7 @@ h3.Hemat{
 }
 .Bahman{
    text-align: center;
-   margin: 0px 0px 0px 0px;
-   margin: 23px 0px 0px 0px;
+   margin: 0px 6px 0px 0px;
 }
 .Line{
    height: 649px;
@@ -100,18 +99,18 @@ h1,h2,h3,h4,h5,h6{
    font-family: IranSans !important;
 }
 .date{
-   margin: -683px 0px 0px 1300px;
+   margin: -683px 0px 0px 1283px;
    font-size: smaller;
 }
-.subject{
-    margin : 3px 0px 0px 931px;
+.Bahman3SubjectOpen{
+   margin: 3px 0px 0px 909px;
 }
 .text{
    margin : 10px 0px 0px 1042px;
    opacity: 80%;
 }
 .btn-primary{
-   margin: -9px 0px -6px 1225px;
+   margin: -15px 0px -6px 1200px;
    border-radius: 15px;
 }
 p.Dey{
@@ -141,16 +140,15 @@ p.Bahman{
 
 
 .date2{
-   margin: 20px 0px 0px 1303px;
+   margin: 20px 0px 0px 1281px;
    font-size: smaller;
 }
 .subject2{
-   margin: 2px 0px 0px 851px;
+   margin: 2px 0px 0px 824px;
 }
 .text2{
-   margin : 0px 0px 0px 730px;
    opacity: 80%; 
-   margin: 0px 0px 0px 730px;
+   margin: 0px 0px 0px 701px;
 }
 
 
@@ -238,9 +236,9 @@ p.Bahman{
    font-size: x-large;
    margin: 0px 0px 0px 133px;
 }
-.text{
+.bahman3MadaresIsOpen{
    font-size: medium;
-   margin: 0px 0px 0px 1043px;
+   margin: 0px 0px 0px 1024px;
 }
 .form{
    margin: 17px 0px 0px 72px;
@@ -431,13 +429,13 @@ a:hover{
     border-radius: 4px;
  }
  .date3{
-   margin: 18px 0px 0px 1292px;
+   margin: 18px 0px 0px 1274px;
  }
  .subject3{
-   margin: 0px 0px 0px 872px;
+   margin: 0px 0px 0px 849px;
  }
  .text3{
-   margin: 0px 0px 0px 725px;
+   margin: 0px 0px 0px 701px;
  }
  .HealthText{
     font-size: x-large;
